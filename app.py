@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Version 2: Automatic deployment using GitHub Webhook, Jenkins, Docker, and AWS EC2!"
+    return "Version 3: Live CI/CD update verified successfully!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
